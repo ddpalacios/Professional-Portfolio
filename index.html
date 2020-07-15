@@ -1,0 +1,924 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Daniel Palacios Portfolio</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://fonts.googleapis.com/css2?family=Alegreya+SC:wght@700&family=Balthazar&family=Share+Tech&family=Source+Serif+Pro:wght@600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Alegreya+SC:wght@700&family=Share+Tech&family=Source+Serif+Pro:wght@600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Alegreya+SC:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cousine&family=Cutive+Mono&family=IBM+Plex+Mono:ital,wght@1,700&family=Share+Tech+Mono&display=swap" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css2?family=Acme&family=Asap:ital,wght@1,700&display=swap" rel="stylesheet">  
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <title>Daniel Palacios Portfolio</title>
+  <meta charset="utf-8"  name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" >
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+    html {
+
+scroll-behavior: smooth;
+
+}
+
+
+body{
+  background-color: rgb(255, 255, 255);
+}
+
+.jumbotron{
+  background-color: rgba(197, 187, 187, 0.377);
+}
+
+  .affix {
+    top: 0;
+    width: 100%;
+  }
+  .affix + .container-fluid {
+    padding-top: 10px;
+  }
+
+  .container-fluid {
+    height: 94vh;
+}
+.containers{
+  position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%) 
+}
+
+  .headers{
+    background: url("https://cdn.hipwallpaper.com/i/77/13/BDlSG2.jpg") no-repeat;
+    background-size: cover;
+    text-align: center;
+   
+
+  }
+  body{
+    overflow-x: hidden;
+  }
+  .card{
+    background-color: rgba(247, 247, 247, 0.192);
+  }
+  h5{
+    font-family: 'Balthazar', serif;
+    font-size: 2.3em;
+    color: black;
+  }
+  h6{
+    font-family: 'Balthazar', serif;
+    font-size: 1.3em;
+    color: black;
+  }
+  
+  h7{
+    font-family: 'Balthazar', serif;
+    font-size: 1.3em;
+    
+  }
+  h1{
+    font-family: 'Alegreya SC', serif;
+  }
+  
+  h3{
+    font-family: 'Alegreya SC', serif;
+  }
+  p{
+    font-family: 'Balthazar', serif;
+    
+  }
+
+
+.nav-wrapper{
+  min-height: 150px;
+}
+
+
+  li{
+    font-size: 1.5em;
+    font-family: 'Balthazar', serif;
+    
+  }
+.navbar-brand{
+  font-size: 1.7em;
+}
+.card{
+  width: 100%;
+}
+
+  .card_background{
+width: 100%;
+    background-color: rgba(36, 37, 43, 0.089);
+
+  }
+
+  </style>
+</head>
+<body>
+<div class="headers" >
+<header class="container-fluid" style="color:#fff;">
+<div class="containers">
+  <h1 style="color: rgb(20, 20, 20); font-size:4em;"><b> DANIEL PALACIOS </b></h1>
+  <hr style="border-color: orange; width: 13em;">
+
+  <h2 style="color: rgba(0, 0, 0, 0.719); font-size: 2em; font-family: 'Alegreya SC', serif;"> <b></b>ASPIRING SOFTWARE ENGINEER</h2>
+</div>
+</header>
+</div>
+<div class="nav-wrapper">
+<nav  class="navbar navbar-inverse"  style="z-index: 1; background-color: rgb(3, 43, 61);"  >
+  <div class="container-fluid-nav text-center py-0">
+    <a  onclick="scrollToView(this.id)" style="font-family: 'Balthazar'; cursor: pointer;" id="nav_about_me" class="navbar-brand">ABOUT ME</a>
+    <a onclick="scrollToView(this.id)" style=" cursor: pointer; font-family: 'Balthazar';"  class="navbar-brand" id="nav_technical_skills">SKILLS</a>
+    <a onclick="scrollToView(this.id)" class="navbar-brand" id="nav_experience"
+      style=" font-family: 'Balthazar';  cursor: pointer;">EXPERIENCE</a>
+    <a onclick="scrollToView(this.id)" class="navbar-brand" id="nav_education" style="font-family: 'Balthazar';  cursor: pointer;">EDUCATION</a>
+    <a onclick="scrollToView(this.id)" class="navbar-brand" id="nav_portfolio" style="font-family: 'Balthazar';  cursor: pointer;">PORTFOLIO</a>
+    <a onclick="scrollToView(this.id)" class="navbar-brand" id="nav_contact" style=" font-family: 'Balthazar';  cursor: pointer;">CONTACT</a>
+
+
+  </div>
+</nav>
+</div>
+
+
+  
+  <div class="jumbotron"  id="about_me">
+    <div class="d-flex justify-content-center" style="text-align: center;">
+    <h2 style="font-size: 3em; font-family: 'Alegreya SC', serif;">ABOUT ME</h2>
+    
+  </div>
+  <hr style="border-color: orange; width: 13em;">
+
+
+  <br>
+
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm">
+        <div class="container">
+        <img width="100%" height="100%" class="rounded-circle" src="daniel_profile.jpeg">
+      </div>
+
+      </div>
+
+
+      <div class="col-sm">
+        <div class="container">
+        <b><h3>HI, IT'S ME!</h3></b>
+      </div>
+        <br>
+        <br>
+        <p>I love building awesome full-stack software that has the potential to help & support a product or community in any way possible. 
+          <br><br>I am up for any challenge. I have built Android applications, basic websites,
+          and Hands-On Machine Learning applications. <b>My specialty</b> is designing backend-architectures that allows our software to perform the best of its capabilities.
+        </p>
+
+        <p> <B>If you are interested</B>, you can view some of my favorite projects in my <a
+            style="font-family: 'Balthazar'; cursor: pointer; color: blue;" onclick="scrollToView(this.id)"  id="nav_portfolio"> <u>portfolio</u> </a>down
+          below.</p>
+        <a  style="font-size: 1.3em; font-family: 'Balthazar', serif;" href="https://github.com/ddpalacios">GitHub</a>
+
+        <a style="font-size: 1.3em; font-family: 'Balthazar', serif; margin: 15px;" href="https://linkedin.com/in/dpalacios2">LinkedIn</a>
+
+      </div>
+      
+
+
+      <div class="col-sm">
+
+        <b><h3>MY PERSONAL INTRESTS</h3></b>
+        <br>
+        <br>
+        <p>When I am not <a style="font-family: 'Balthazar'; cursor: pointer; color: blue;" onclick="scrollToView(this.id)"
+            id="nav_technical_skills"><u>coding</u></a> my next project, I enjoy spending my
+          time doing any of the following: </p>
+        <ul>
+          <li>I love <b>learning how to cook</b> new dishes and seeing people's reactions to them;</li>
+          <br>
+          <li>I am <b>thriving to learn new skills</b> that ehance my tool-belt;</li>
+          <br>
+          <li>I read Machine Learning text books <b>for entertainment;</b></li>
+          <br>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  
+
+
+
+
+  </div>
+
+  <div class="jumbotron" id="technical_skills" >
+    <div style="text-align: center;">
+    <h3 style="font-size: 3em; font-family: 'Alegreya SC', serif;">TECHNICAL SKILLS</h3>
+    <hr style="border-color: orange; width: 13em;">
+    </div>
+    <div class="container" style="text-align: center;">
+    <p>I've worked with a wide variety of programming languages.
+      For web applications, I use Flask, Node.js, or PHP.
+      Whenever I need the most performance possible I obviously go with Java or C++
+      and finally when I am building ML applications or analyzing and manipulating data or working on my hobby
+      projects I fall back on Python </p>
+    <br>
+  </div>
+
+    <div class="d-flex justify-content-center" style="text-align: center;">
+          <div class="row" id="main_skills">
+        <div class="col-sm">   <b>
+          <h7>PYTHON</h7>
+        </b></div>
+        <div class="col-sm">   <b>
+          <h7>NODE.JS</h7>
+        </b></div>
+        <div class="col-sm">  <b>
+          <h7>JAVA</h7>
+        </b></div>
+        <div class="col-sm"><b>
+          <h7>SQLITE</h7>
+        </b></div>
+          </div>
+      </div>
+      <br>
+
+      <div class="container" style="text-align: center;">
+        <h3><b>MOST FREQUENTLY USED TOOLS</b></h3>
+    <hr style="border-color: orange; width: 13em;">
+
+      </div>
+      <br>
+      <div class="container" style="text-align: center;">
+        <div class="row">
+          <div class="col-sm">
+              <div class="container">
+            <h7 style="font-size: 1.5em; font-family: 'Alegreya SC', serif;"><b>Web Scraping & Frameworks </b></h7>
+            <br>
+            <br>
+            <ul>
+              <li>BeautifulSoup</li>
+              <li>Node.js</li>
+              <li>Flask/socketio</li>
+  
+            </ul>
+          </div>
+          </div>
+
+          <div class="col-sm">
+          <h7 style="font-size: 1.5em; font-family: 'Alegreya SC', serif;"><b>Data Analysis & Manipulation</b></h7>
+          <br>
+          <br>
+          <ul>
+            <li>Pandas</li>
+            <li>Numpy</li>
+            <li>Scikit-learn</li>
+            <li>Keras</li>
+            <li>Matplotlib</li>
+
+          </ul>
+
+
+        </div>
+        <div class="col-sm">
+          <h7 style="font-size: 1.5em; font-family: 'Alegreya SC', serif;"><b>Software</b></h7>
+
+
+          <br>
+          <br>
+          <ul>
+            <li>Windows & Linux</li>
+            <li>SQLite/MySQL</li>
+            <li>Git/GitHub</li>
+            <li>Android Studio</li>
+
+          </ul>
+
+        </div>
+        </div>
+      </div>
+
+
+
+    
+
+    
+  </div>
+  <div class="jumbotron" id= "experience" style="text-align: center;">
+    <div class="container" style="text-align: center;">
+      <h3 style="font-size: 3em; font-family: 'Alegreya SC', serif;">WORK EXPERIENCE</h3>
+      <hr style="border-color: orange; width: 13em;">
+    </div>
+<div class="container">
+      <div class="container">
+        <h3 style="font-size: 2em;"><b>UNDERGRADUATE STUDENT RESEARCHER</b></h3>
+      </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm">
+          <h3>DATA ANALYSIS</h3>
+        </div>
+
+        <div class="col-sm">
+          <h3>BACKEND DEVELOPMENT</h3>
+        </div>
+
+        <div class="col-sm">
+          <h3>DEEP LEARNING</h3>
+        </div>
+        <br>
+        <br>
+      </div>
+    </div>
+
+    <div class="container">
+      <p>Here we have a huge challenge to tackle. Is it possible to use Darwin's Theory of Evolution to solve complex problems such as Computer Vision?
+        I have been working alongside a professor at Loyola University
+        while I conducted and wrote my research on Evolutionary-AI
+        in combination with Deep Convolutional Neural Networks. I have been responsible for keeping up-to-date
+        progress reports and
+        continue to explore topics for expanding the levels for autonomous vehicles using evolutionary approaches
+        while reverse-engineering an existing algorithm,
+        CoDeepNEAT.
+      </p>
+      <br>
+    </div>
+
+
+  </div>
+      <br>
+<br>
+
+
+<div class="d-flex justify-content-center" style="align-items: center;">
+  <div class="row " style="align-items: center;" >
+
+    <div class="col-6" style=" outline: solid black;">
+      <div class="mr-2">
+      <div class="card">
+        <div class="container" style="text-align: center;">
+       <img style="object-fit: cover; width: 100%; height: 230px;" class="card-img-top" src="codeepneat.jpg" alt="Card image cap">
+     </div>
+     <div class="d-flex justify-content-center">
+     <div class="card_background">
+       <div class="card-body">
+          <h5 class="card-title">CoDeepNEAT</h5>
+          <h6 class="card-subtitle mb-2">Feb - Mar 2020</h6>
+          <p class="card-text">Original Paper: <a href=" https://arxiv.org/abs/1703.00548"> https://arxiv.org/abs/1703.00548</a>
+          <br>Exploring Genetic Algorithms (G.A) to configure Deep Convolutional Neural Networks
+          </p>
+         </div>
+         <div class="container" style="text-align: center;">
+          <a style=" font-family: 'Alegreya SC', serif; font-size: 1.3em;" href="https://github.com/ddpalacios/Evolving-Architecture" class="btn btn-primary">View Project</a>
+         </div>
+     </div>
+    </div>
+      </div>
+    </div>
+   </div>
+
+   <div class="col-6" style=" outline: solid black;">
+    <div class="ml-2">
+    <div class="card">
+      <div class="container" style="text-align: center;">
+     <img style="object-fit: cover; width: 100%; height: 230px;" class="card-img-top" src="research.png" alt="Card image cap">
+   </div>
+   <div class="d-flex justify-content-center">
+   <div class="card_background">
+     <div class="card-body">
+        <h5 class="card-title">Evolving Architecture</h5>
+        <h6 class="card-subtitle mb-2">April - May 2020</h6>
+        <p class="card-text">Semester Research Paper at Loyola University of Chicago.<br>Explored Topics: Evolving Neural Nets and their potential in Computer Vision</p>
+       </div>
+       <div class="container" style="text-align: center;">
+        <a style=" font-family: 'Alegreya SC', serif; font-size: 1.3em;" href="viewer.html" class="btn btn-primary">Read Paper</a>
+       </div>
+   </div>
+  </div>
+    </div>
+  </div>
+ </div>
+
+     
+    </div>
+  </div>
+<br>
+<br>
+<hr style="border-color: orange; width: 13em;">
+
+<div class="container">
+<h3 style="font-size: 2em;">DATA ANALYST INTERN</h3>
+
+</div>
+<div class="container">
+
+  <div class="row" >
+    <div class="col-sm">
+      <h3>LOGISTICS</h3>
+    </div>
+
+    <div class="col-sm">
+      <h3>WEBSCRAPING</h3>
+    </div>
+
+    <div class="col-sm">
+      <h3>CUSTOM SOLUTIONS</h3>
+    </div>
+  </div>
+</div>
+  <br>
+  <div class="container">
+  <p>It was my responsibility to demonstrate the data analysis of client's expenses.
+    I have been able maintain complete ownership for individual parts of analysis and create innovative
+    automation scripts
+    to enhance work effiencincy using Python's Webscraping tools and openpyxl.</p>
+  </div>
+  <br>
+<div class="container">
+  <div class="row" >
+    <div class="col-sm">
+      <h6 style="font-family: 'Balthazar'; font-size:1.5em"> <b>Company:</b> City of Evanston Parks & Community Services </h6>
+    </div>
+
+    <div class="col-sm" >
+      <h6  style="font-family: 'Balthazar'; font-size:1.5em"> <b> Period:</b> January 2019 - May 2019</h6>
+    </div>
+  </div>
+</div>
+
+<br>
+<br>
+<hr style="border-color: orange; width: 13em;">
+
+<div class="container">
+  <h3 style="font-size: 2em;">PYTHON TEACHER & TUTOR</h3>
+
+  </div>
+  <div class="container">
+  
+    <div class="row" >
+      <div class="col-sm">
+        <h3>ENGAGEMENT SKILLS</h3>
+      </div>
+  
+      <div class="col-sm">
+        <h3>INTRO TO PYTHON</h3>
+      </div>
+  
+      <div class="col-sm">
+        <h3>COMPUTER OS MAINTENANCE</h3>
+      </div>
+    </div>
+  </div>
+    <br>
+    <div class="container">
+      <p>I was given the opportunity to introduce beginners Python course for middle school
+        students (up to 10 students) for an after-school program.
+        I have been able to achieve various students interests in project and team engagement skills all while learning
+        basic python. This after-school session
+        was successful enough that after my time of employment the former organization decided to keep this program
+        as a selective course for students which is still in-session today.
+      </p>
+    </div>
+    <br>
+  <div class="container">
+    <div class="row" >
+      <div class="col-sm">
+        <h6 style="font-family: 'Balthazar'; font-size:1.5em"> <b>Company:</b> Living Works Organization</h6>
+      </div>
+  
+      <div class="col-sm" >
+        <h6 style="font-family: 'Balthazar'; font-size:1.5em"><b> Period:</b> January 2019 - May 2019</h6>
+      </div>
+    </div>
+  </div>
+  
+
+</div>
+  <div class="jumbotron" id="education">
+    <div class="container" style="text-align: center;">
+      <div class="container">
+      <h3 style="font-size: 3em; font-family: 'Alegreya SC', serif;">EDUCATION</h3>
+      <hr style="border-color: orange; width: 13em;">
+
+    </div>
+    </div>
+    <div class="container" style="text-align: center;">
+      <h3><b>LOYOLA UNIVERSITY OF CHICAGO COLLEGE OF ARTS & SCIENCES</b></h3>
+      <h4  style="font-family: 'Balthazar'; font-size: 1.8em;">BACHELOR OF COMPUTER SCIENCE</h4>
+    </div>
+<br>
+    <div class="container" style="text-align: center;">
+      <p >Here I studied Computer Science at Loyola University of Chicago of Applied Arts &
+        Sciences. I have gained strong knowledge a wide variety of subjects including 
+        Data Structures, Intermidiate Object-Oriented-Progamming, Machine Learning/Natural Laungage Processing, and
+        algorithim design.
+      </p>
+    </div>
+
+    <div class="container" style="text-align: center;">
+      <div class="row ">
+        <div class="col-sm">
+          <h9  style="font-size: 1.3em; font-family: 'Balthazar'; " ><b>Graduated in: </b> 2020</h9>
+          <h9  style="font-size: 1.3em; font-family: 'Balthazar'; "  > | <b>Dean's List award: </b> 2018 - 2020</h9>
+        </div>
+      </div>
+    </div>
+  <br>
+    <div id="image_container" class="d-flex justify-content-center" style=" align-items: center;">
+      <div class="row flex-nowrap">
+        
+      <div class="container" style="object-fit: cover; width: 80%; text-align: center;">
+      <img style="outline-style:solid black; width:50%;" src="diploma.jpg"  alt="">
+    </div>
+    </div>
+    </div>
+  </div>
+  <div class="jumbotron" style="text-align: center;" id="portfolio">
+    <div class="container" style="text-align: center;">
+      <h3 style="font-size: 3em; font-family: 'Alegreya SC', serif;">SOME OF MY FAVORITE PROJECTS</h3>
+
+    </div>
+    
+    
+    <div class="container">
+      <hr style="border-color: orange; width: 13em;">
+        <div class="container">
+          <h3 style="font-size: 2.5em;">MACHINE LEARNING</h3>
+        </div>
+        <br>
+        <hr style="border-color: orange; width: 13em;">
+      </div>
+
+    <div class="d-flex justify-content-center" style="align-items: center;">
+      <div class="row " style="align-items: center;" >
+          <div class="col-6" style=" outline: solid black;">
+             <div class="card">
+               <div class="container" style="text-align: center;">
+              <img style="object-fit: cover; width: 100%; height: 230px;" class="card-img-top" src="The-Trump-Economy-vs-the-Obama-Economy-.jpg" alt="Card image cap">
+            </div>
+            <div class="d-flex justify-content-center">
+            <div class="card_background">
+              <div class="card-body" >
+                 <h5 class="card-title">Presidential Vocabulary</h5>
+                 <h6 class="card-subtitle mb-2">April - May 2020</h6>
+                 <p class="card-text">Do presidents change the way they approach these different speeches (Rally vs Union) and if so, do certain presidents adjust their speaking habits more than others?</p>
+                
+                </div>
+                <div class="container" style="text-align: center;">
+                  <a style=" font-family: 'Alegreya SC', serif; font-size: 1.3em;" href="https://github.com/ddpalacios/Presidential-Vocabulary" class="btn btn-primary">View Project</a>
+                 </div>
+             </div>
+            </div>
+            </div>
+          </div>
+
+          <div class="col-6" style="outline: solid black;">
+            <div class="card">
+              <div class="container" style="text-align: center;">
+              <img style="object-fit: cover; width: 100%; height: 230px;"  class="card-img-top" src="halloween-2893710__340.jpg" alt="Card image cap">
+              </div> 
+              <div class="d-flex justify-content-center">
+              
+            <div class="card_background">
+              <div class="card-body">
+                 <h5 class="card-title">Halloween Classification</h5>
+                 <h6 class="card-subtitle mb-2">October - November 2019</h6>
+                 <p class="card-text">This project involves an introduction to a subset of computer Vision.<br>
+                  This is merely a representation on what Computer vision can provide no matter how silly the task may be.</p>
+                
+                </div>
+                <div class="container" style="text-align: center;">
+                  <a style=" font-family: 'Alegreya SC', serif; font-size: 1.3em;" href="https://github.com/ddpalacios/Halloween-Classification" class="btn btn-primary">View Project</a>
+                 </div>
+             </div>
+            </div>
+            </div>
+        </div>
+        </div>
+      </div>
+<br>
+<div class="container">
+  <hr style="border-color: orange; width: 13em;">
+    <div class="container">
+      <h3 style="font-size: 2.5em;">MOBILE DEVELOPMENT</h3>
+    </div>
+    <br>
+    <hr style="border-color: orange; width: 13em;">
+  </div>
+
+<div class="d-flex justify-content-center" style="align-items: center;">
+  <div class="row " style="align-items: center;" >
+      <div class="col-6" style=" outline: solid black;">
+         <div class="card">
+           <div class="container" style="text-align: center;">
+          <img style="object-fit: cover; width: 100%; height: 230px;" class="card-img-top" src="blockchain-3508589_1280-min.png" alt="Card image cap">
+        </div>
+        <div class="d-flex justify-content-center">
+        <div class="card_background">
+          <div class="card-body" >
+             <h5 class="card-title">Distributed Systems</h5>
+             <h6 class="card-subtitle mb-2">January- May 2020</h6>
+             <p class="card-text">Developing access for Front/Back Implementation Using Socket Communication.<br>Available on Android.</p>
+            
+            </div>
+            <div class="container" style="text-align: center;">
+              <a style=" font-family: 'Alegreya SC', serif; font-size: 1.3em;" href="https://github.com/VismarkJuarez/PrototypeDistributed" class="btn btn-primary">View Project</a>
+
+             </div>
+         </div>
+        </div>
+        </div>
+      </div>
+
+      <div class="col-6" style="outline: solid black;">
+        <div class="card">
+          <div class="container" style="text-align: center;">
+          <img style="object-fit: cover; width: 100%; height: 230px;"  class="card-img-top" src="https://lh3.googleusercontent.com/KrrEhilUfyaxkmC3chWUUJGlTrx-k4ftTliaqbrHr2ubk_7p0etYtG_8XghXftQfRVoC" alt="Card image cap">
+          </div> 
+          <div class="d-flex justify-content-center">
+          
+        <div class="card_background">
+          <div class="card-body">
+             <h5 class="card-title">Android-CTA-Live-Transit-Tracker</h5>
+             <h6 class="card-subtitle mb-2">May - June 2020</h6>
+             <p class="card-text">Here is a convienient way to get the best possible results for making your daily train in Chicago.  Just select your train line and let the application do the rest!  <b> 3D Mapping Available!</b></p>
+             
+            </div>
+            <div class="container" style="text-align: center;">
+              <a style=" font-family: 'Alegreya SC', serif; font-size: 1.3em;" href="https://github.com/ddpalacios/Android-CTA-Live-Transit-Tracker" class="btn btn-primary">View Project</a>
+
+             </div>
+         </div>
+        </div>
+
+        </div>
+    </div>
+    </div>
+  </div>
+<br>
+
+
+<div class="container">
+  <hr style="border-color: orange; width: 13em;">
+    <div class="container">
+      <h3 style="font-size: 2.5em;">WEB DEVELOPMENT</h3>
+    </div>
+    <br>
+    <hr style="border-color: orange; width: 13em;">
+  </div>
+
+<div class="d-flex justify-content-center" style="align-items: center;">
+  <div class="row " style="align-items: center;" >
+      <div class="col-6" style=" outline: solid black;">
+         <div class="card">
+           <div class="container" style="text-align: center;">
+          <img style="object-fit: cover; width: 100%; height: 230px;" class="card-img-top" src="diving.png" alt="Card image cap">
+        </div>
+        <div class="d-flex justify-content-center">
+        <div class="card_background">
+          <div class="card-body" >
+             <h5 class="card-title">Diving Deep Into Waters of Deep Learning</h5>
+             <h6 class="card-subtitle mb-2">January - May 2020</h6>
+             <p class="card-text">Get Hands-On learning with Neural Networks right here on your browser,just build, feed, train, repeat!</p>
+            
+            </div>
+            <div class="container" style="text-align: center;">
+              <a style=" font-family: 'Alegreya SC', serif; font-size: 1.3em;" href="https://github.com/ddpalacios/Diving-Deep-Into-The-Waters-of-Deep-Learning" class="btn btn-primary">View Project</a>
+
+             </div>
+         </div>
+        </div>
+        </div>
+      </div>
+
+      <div class="col-6" style="outline: solid black;">
+        <div class="card">
+          <div class="container" style="text-align: center;">
+          <img style="object-fit: cover; width: 100%; height: 230px;"  class="card-img-top" src="cta.png" alt="Card image cap">
+          </div> 
+          <div class="d-flex justify-content-center">
+          
+        <div class="card_background">
+          <div class="card-body">
+             <h5 class="card-title">CTA-Tracker (WEB)</h5>
+             <h6 class="card-subtitle mb-2">October - November 2019</h6>
+             <p class="card-text">Here is a convienient way to get the best possible results for making your daily train in Chicago.  Just select your train line and let the application to the rest!</p>
+
+            
+            </div>
+            <div class="container" style="text-align: center;">
+              <a style=" font-family: 'Alegreya SC', serif; font-size: 1.3em;" href="https://github.com/ddpalacios/Chicago-Tracker-Web" class="btn btn-primary">View Project</a>
+
+             </div>
+         </div>
+        </div>
+
+        </div>
+    </div>
+    </div>
+  </div>
+<br>
+
+
+          </div>
+        </div>
+
+       
+       
+        <br>
+        <br>
+ 
+  
+
+                      <br>
+
+
+            </div>
+          </div>
+
+
+
+
+  </div>
+  <div class="jumbotron" style="text-align: center;" id="contact">
+    <div class="container" style="text-align: center;">
+      <h3 style="font-size: 3em; font-family: 'Alegreya SC', serif;">LET'S GET IN TOUCH</h3>
+    </div>
+    <hr style="border-color: orange; width: 13em;">
+
+
+    <div class="container">
+      <p>If you would like to have a chat or offer recruitment,
+        then please email me at <b>palaciosdanieldario@gmail.com</b> and I will
+        respond to you <b>ASAP.</b>
+      </p>
+
+
+    </div>
+    
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm">
+
+          <p >And don't forget to checkout my <a sstyle="font-family: 'Balthazar'; cursor: pointer; color: blue;"
+            href="https://github.com/ddpalacios"><b>Github</b></a> and
+          <a style=" cursor: pointer; " href="https://linkedin.com/in/dpalacios2"> <b>LinkedIn</b></a> for day-to-day progress updates for my most current work.</p>
+
+        </div>
+      </div>
+    </div>
+    
+
+
+
+
+  </div>
+  
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+<script>
+$(document).ready(function(){
+  /* affix the navbar after scroll below header */
+  $(".navbar").affix({offset: {top: $("header").outerHeight(false)} });
+});
+
+
+
+
+function scrollToView(id) {
+        if (id == "nav_about_me")
+          document.getElementById("about_me").scrollIntoView();
+
+
+        if (id == "nav_technical_skills")
+          document.getElementById("technical_skills").scrollIntoView();
+
+
+
+        if (id == "nav_experience")
+          document.getElementById("experience").scrollIntoView();
+
+
+        if (id == "nav_education")
+          document.getElementById("education").scrollIntoView();
+
+
+
+        if (id == "nav_portfolio")
+          document.getElementById("portfolio").scrollIntoView();
+
+
+
+        if (id == "nav_contact")
+          document.getElementById("contact").scrollIntoView();
+
+      }
+
+
+
+
+      function sendEmail() {
+        var nodemailer = require('nodemailer');
+
+        console.log(nodemailer);
+
+      }
+
+      function setImage(images) {
+        for (var i = 0; i < images.length; i++) {
+
+          var image = document.createElement("img");
+
+
+
+
+          image.src = images[i];
+
+          image.setAttribute("height", "120");
+          image.setAttribute("width", "120");
+
+
+          if (i % 4 == 0) {
+            var breakLine = document.createElement("br");
+            document.getElementById("show").appendChild(breakLine);
+
+
+          }
+
+          document.getElementById("show").appendChild(image);
+
+        }
+
+      }
+
+
+      function show_images(clicked_id) {
+
+
+        var elem = document.getElementById(clicked_id)
+        if (clicked_id == "1") {
+          $("#show").empty();
+          var all_images = ["diving.png", "pv.png", "tracker.png", "map.png", "elev.png", "halloween.png", "distributed.png"]
+        }
+
+        else if (clicked_id == "2") {
+          console.log(clicked_id)
+          $("#show").empty();
+          var all_images = ["pv.png", "elev.png", "halloween.png"]
+
+
+        }
+
+        else if (clicked_id == "3") {
+          console.log(clicked_id)
+          $("#show").empty();
+          var all_images = ["diving.png", "tracker.png"]
+
+
+
+        }
+
+        else if (clicked_id == "4") {
+          console.log(clicked_id)
+          $("#show").empty();
+          var all_images = ["distributed.png", "map.png"]
+        }
+
+        else {
+          alert("No Images To Display In Directory. ID: ", clicked_id)
+        }
+
+
+        setImage(all_images)
+
+
+
+      }
+
+
+</script>
+
+</body>
+</html>
+
